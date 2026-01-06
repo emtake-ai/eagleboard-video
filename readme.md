@@ -113,4 +113,5 @@ python3 ./train_yolov11_fine-tunning.py
 python3 ./yolov11-tinetunning.py
 ```
 
-
+##### in here, you can find out all of above 
+[from scratch to learn on how to train and predict using deep-learning](https://youtu.be/8mX33GbMDFs)
