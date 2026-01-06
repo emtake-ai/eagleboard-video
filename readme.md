@@ -1,5 +1,10 @@
 ## Video using still images
 
+#### download source from Github
+```text
+git clone https://github.com/emtake-ai/eagleboard-video
+cd ./eagleboard-video
+
 
 #### check on how to do classification
 
@@ -8,7 +13,6 @@
 git clone https://huggingface.co/datasets/emtake-ai/classification
 cd ./classification
 ```
-
 
 ##### dataset download  
 [huggingface dataset download](https://huggingface.co/datasets/emtake-ai/classification)  
