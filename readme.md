@@ -98,3 +98,15 @@ download "dataset_detection.zip" from huggingface "in files and versions" inside
 
 ##### you should annotate the image after checking below link  
 [how to annotate using lableImg](https://www.youtube.com/watch?v=nV26hK3CxNM)
+
+##### you can train with fine-tunning after annotation using labelImg
+```text
+python3 ./train_yolov11_fine-tunning.py
+```
+
+##### after it, you can get "runs/detect/yolo11_ai-mf/weights/best.pt", the training result.
+```text
+python3 ./yolov11-tinetunning.py
+```
+
+
