@@ -2,7 +2,7 @@ import os, cv2, random, time
 import numpy as np
 import tensorflow as tf
 
-DATASET_DIR = ".../dataset/train"
+DATASET_DIR = "./dataset/train"
 MODEL_PATH  = "classification.keras"
 IMG_SIZE = 224
 CLASS_NAMES = ["person", "dog", "cat"]
