@@ -2,8 +2,8 @@ import os, cv2, random, time
 import numpy as np
 import tensorflow as tf
 
-DATASET_DIR = "/home/soo/Work/emtake/repositories/eagleboard-video/dataset_classification_mobilenet/train"
-MODEL_PATH  = "efficientnet_classification.h5"
+DATASET_DIR = ".../dataset/train"
+MODEL_PATH  = "classification.keras"
 IMG_SIZE = 224
 CLASS_NAMES = ["person", "dog", "cat"]
 

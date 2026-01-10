@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-DATASET = "/.../eagleboard-video/dataset"
+DATASET = "./dataset"
 IMG_SIZE = 224
 BATCH = 32
 
